@@ -1,4 +1,4 @@
 <!DOCTYPE HTML>
 <html>
-<?php header ("Location: ./pages/quienesSomos.php")?>
+    <?php header ("Location: ./pages/index.php")?>
 </html>

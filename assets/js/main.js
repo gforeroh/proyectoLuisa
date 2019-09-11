@@ -99,7 +99,14 @@
 
 					// Toggle.
 						$sidebar.toggleClass('inactive');
-
+						$sidebar_inner = $sidebar.children('.inner');
+						if($sidebar.hasClass('inactive')){
+							$sidebar_inner
+									.css('left', '-314px');
+						} else {
+							$sidebar_inner
+									.css('left', '-0px');
+						}
 				});
 
 		// Events.
@@ -190,6 +197,14 @@
 
 								return;
 
+							} else {
+								$sidebar_inner
+									.data('locked', 1)
+									// .css('position', 'fixed')
+									// .css('top', '0px')
+									;
+
+								return;
 							}
 
 						// Calculate positions.

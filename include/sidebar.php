@@ -2,19 +2,32 @@
     $json = file_get_contents('./../customerData/menu.json');
     // echo "<pre>";
     $data = json_decode($json, true);
-    // print_r($data); die;
+    $page = '';
+    if($_GET){
+        $page = $_GET['page'];
+    }
+    // print_r($page); die;
 ?>
+<style>
+.customer-inner {
+    -moz-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
+    -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
+    -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
+    transition: margin-left 0.5s ease, box-shadow 0.5s ease;
+}
+</style>
 <div id="sidebar">
-	<div class="inner">
+	<div class="inner customer-inner" style="height: 100%; left: 0px; overflow: hidden auto; position: fixed; top: 0px;">
 		<!-- Menu -->
 		<nav id="menu">
 			<header class="major">
                 <h2>Menu</h2>
 			</header>
 			<ul>
-                <?php foreach($data as $key1 => $item){ ?>
+                <?php foreach($data as $key1 => $item){  ?>
                     <?php if($item['children']){ ?>
                         <li>
+                            <?php $active = (in_array($page, ['nuestrosProductos.php'])) ? 'active' : '';?>
                             <span class="opener"><?= $item['name']?></span>
                             <ul>
                                 <?php foreach($item['children'] as $key2 => $subMenu1){ ?>

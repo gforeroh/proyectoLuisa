@@ -5,39 +5,41 @@
         "children": [
             {
                 "name": "NUESTROS PRODUCTOS",
-                "url": "./nuestrosProductos.php",
-                "children": []
+                "url": "./index.php?page=quienesSomos.php#productos",
+                "children": [],
+                "img": null,
+                "content": ""
             },
             {
                 "name": "RESEÑA HISTÓRICA",
-                "url": "#",
+                "url": "./index.php?page=quienesSomos.php#resena",
                 "children": []
             },
             {
                 "name": "MISIÓN",
-                "url": "#",
+                "url": "./index.php?page=quienesSomos.php#mision",
                 "children": []
             },
             {
                 "name": "VISIÓN",
-                "url": "#",
+                "url": "./index.php?page=quienesSomos.php#vision",
                 "children": []
             },
             {
                 "name": "VALORES",
-                "url": "#",
+                "url": "./index.php?page=quienesSomos.php#valores",
                 "children": []
             },
             {
                 "name": "PRINCIPIOS",
-                "url": "#",
+                "url": "./index.php?page=quienesSomos.php#principios",
                 "children": []
             }
         ]
     },
     {
         "name": "ESTRUCTURA ORGANIZACIONAL",
-        "url": "#",
+        "url": "./index.php?page=estructuraOrganizacional.php",
         "children": []
     },
     {
