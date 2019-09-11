@@ -1,37 +1,32 @@
+<?php 
+    $json = file_get_contents('./../customerData/menu.json');
+    // echo "<pre>";
+    $data = json_decode($json, true);
+    // print_r($data); die;
+?>
 <div id="sidebar">
 	<div class="inner">
 		<!-- Menu -->
 		<nav id="menu">
 			<header class="major">
-				<h2>Menu</h2>
+                <h2>Menu</h2>
 			</header>
 			<ul>
-				<li><a href="index.php">Homepage</a></li>
-				<li><a href="generic.php">Generic</a></li>
-				<li><a href="elements.php">Elements</a></li>
-				<li>
-					<span class="opener">Submenu</span>
-					<ul>
-						<li><a href="#">Lorem Dolor</a></li>
-						<li><a href="#">Ipsum Adipiscing</a></li>
-						<li><a href="#">Tempus Magna</a></li>
-						<li><a href="#">Feugiat Veroeros</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Etiam Dolore</a></li>
-				<li><a href="#">Adipiscing</a></li>
-				<li>
-					<span class="opener">Another Submenu</span>
-					<ul>
-						<li><a href="#">Lorem Dolor</a></li>
-						<li><a href="#">Ipsum Adipiscing</a></li>
-						<li><a href="#">Tempus Magna</a></li>
-						<li><a href="#">Feugiat Veroeros</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Maximus Erat</a></li>
-				<li><a href="#">Sapien Mauris</a></li>
-				<li><a href="#">Amet Lacinia</a></li>
+                <?php foreach($data as $key1 => $item){ ?>
+                    <?php if($item['children']){ ?>
+                        <li>
+                            <span class="opener"><?= $item['name']?></span>
+                            <ul>
+                                <?php foreach($item['children'] as $key2 => $subMenu1){ ?>
+                                    <?php $href = (!$subMenu1['children']) ? $subMenu1['url'] : $subMenu1['url'] . '?nivel1=' . $key1 . '&nivel2=' . $key2 ;?>
+                                    <li><a href="<?=$href?>"><?= $subMenu1['name']?></a></li>
+                                <?php } ?>
+                            </ul>
+                        </li>
+                    <?php } else { ?>
+                            <li><a href="<?=$item['url']?>"><?= $item['name']?></a></li>
+                    <?php } ?>
+                <?php } ?>
 			</ul>
 		</nav>
 		<!-- Footer -->
@@ -39,4 +34,13 @@
 			<p class="copyright">Proyecto Luisa Forero</p>
 		</footer>
 	</div>
-</div>
+</div>  
+
+<?php
+// echo "</pre>";
+function prueba(){
+    $str = "<h1>HolaMundo</h1>";
+    return $str;
+}
+
+?>

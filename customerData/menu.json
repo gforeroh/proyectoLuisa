@@ -1,0 +1,282 @@
+[
+    {
+        "name": "QUIENES SOMOS",
+        "url": "index.php",
+        "children": [
+            {
+                "name": "NUESTROS PRODUCTOS",
+                "url": "./nuestrosProductos.php",
+                "children": []
+            },
+            {
+                "name": "RESEÑA HISTÓRICA",
+                "url": "#",
+                "children": []
+            },
+            {
+                "name": "MISIÓN",
+                "url": "#",
+                "children": []
+            },
+            {
+                "name": "VISIÓN",
+                "url": "#",
+                "children": []
+            },
+            {
+                "name": "VALORES",
+                "url": "#",
+                "children": []
+            },
+            {
+                "name": "PRINCIPIOS",
+                "url": "#",
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "ESTRUCTURA ORGANIZACIONAL",
+        "url": "#",
+        "children": []
+    },
+    {
+        "name": "SISTEMA INTEGRADO DE GESTIÓN",
+        "url": "#",
+        "children": [{
+                "name": "POLÍTICA HSEQ",
+                "url": "#",
+                "children": []
+            },
+            {
+                "name": "OBJETIVOS DEL SIG",
+                "url": "#",
+                "children": []
+            }
+        ]
+    },
+    {
+        "name": "MAPA DE PROCESOS DE LA ORGANIZACIÓN",
+        "url": "#",
+        "children": []
+    },
+    {
+        "name": "DOCUMENTACIÓN DEL SIG",
+        "url": "#",
+        "children": [
+            {
+                "name": "PROCESOS ESTRATÉGICOS",
+                "url": "./documentos.php",
+                "children": [
+                    {
+                        "name": "PLANEACIÓN ESTRATÉGICA",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "GESTIÓN HSEQ",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "PROCESOS MISIONALES",
+                "url": "./documentos.php",
+                "children": [
+                    {
+                        "name": "GESTIÓN COMERCIAL",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SELECCIÓN MATERIA PRIMA",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DISEÑO",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "FABRICACIÓN Y ENSAMBLE",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "EMBALAJE Y ALMACENAMIENTO",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DESPACHO",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "PROCESOS DE APOYO",
+                "url": "./documentos.php",
+                "children": [
+                    {
+                        "name": "COMPRAS",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "TALENTO HUMANO",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "GESTIÓN ADMINISTRATIVA",
+                        "url": "#",
+                        "children": [{
+                                "name": "PROCEDIMIENTO",
+                                "url": "#",
+                                "children": []
+                            },
+                            {
+                                "name": "FORMATO",
+                                "url": "#",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MATRIZ DE NORMAS LEGALES",
+        "url": "#",
+        "children": []
+    },
+    {
+        "name": "MATRIZ DE RIESGOS",
+        "url": "#",
+        "children": []
+    },
+    {
+        "name": "PROGRAMAS DEL SIG",
+        "url": "#",
+        "children": []
+    },
+    {
+        "name": "INDICADORES DEL SIG",
+        "url": "#",
+        "children": []
+    },
+    {
+        "name": "CRONOGRAMA DEL SIG",
+        "url": "#",
+        "children": []
+    },
+    {
+        "name": "LISTADO MAESTRO DE DOCUMENTOS Y REGISTROS",
+        "url": "#",
+        "children": []
+    }
+]
