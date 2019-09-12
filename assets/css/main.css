@@ -3331,7 +3331,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		border-bottom: solid 5px #f56a6a;
-		padding: 6em 0 1em 0;
+		padding: 2em 0 1em 0;
 		position: relative;
 	}
 
@@ -3604,3 +3604,13 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+/* CUSTOMER */
+#header,
+#ico-menu {
+	z-index: 10;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #FFF;
+}

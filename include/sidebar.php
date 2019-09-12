@@ -22,6 +22,7 @@
 		<nav id="menu">
 			<header class="major">
                 <h2>Menu</h2>
+                <span class="image main"><img src="./../images/0.png" alt="" /></span>
 			</header>
 			<ul>
                 <?php foreach($data as $key1 => $item){  ?>

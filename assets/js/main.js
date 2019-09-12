@@ -89,7 +89,7 @@
 					.appendTo($head);
 
 		// Toggle.
-			$('<a href="#sidebar" class="toggle">Toggle</a>')
+			$('<span id="ico-menu"><a href="#sidebar" class="toggle">Toggle</a></span>')
 				.appendTo($sidebar)
 				.on('click', function(event) {
 
@@ -102,10 +102,11 @@
 						$sidebar_inner = $sidebar.children('.inner');
 						if($sidebar.hasClass('inactive')){
 							$sidebar_inner
-									.css('left', '-314px');
+									.css('marginLeft', '-24em');
 						} else {
 							$sidebar_inner
-									.css('left', '-0px');
+									.css('marginLeft', '0px')
+									;
 						}
 				});
 
