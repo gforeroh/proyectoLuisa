@@ -45,7 +45,7 @@
 		</nav>
 		<!-- Footer -->
 		<footer id="footer">
-			<p class="copyright">Proyecto Luisa Forero</p>
+			<p class="copyright">Proyecto sig.arquitectirahydsas</p>
 		</footer>
 	</div>
 </div>  
