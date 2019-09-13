@@ -6,7 +6,7 @@
 </style>
 <!-- <div class="sticky">I will stick to the screen when you reach my scroll position</div> -->
 <header id="header" class="sticky">
-	<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
+	<a href="index.html" class="logo"><strong>ARQUITECTURA</strong> J&D</a>
 	<ul class="icons">
 		<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter_ssssss</span></a></li>
 		<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>

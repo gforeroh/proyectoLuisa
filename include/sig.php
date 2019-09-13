@@ -3,7 +3,7 @@
 		<h1>NUESTRO PROCESO PRODUCTIVO</h1>
     </header>
 	
-	<h2 id="hseq">POLÍTICA HSEQ</h2>
+	<h2 id="politica">POLÍTICA HSEQ</h2>
 	<p>La organización Arquitectura J&D S.A.S. se encuentra en la búsqueda de incrementar la satisfacción de sus clientes, ofreciendo productos con altos estándares de calidad, responsabilidad ambiental y cuidado del bienestar de los trabajadores.</p>
 	<div class="image main"><img src="./../images/8.png" alt="" /></div>
 

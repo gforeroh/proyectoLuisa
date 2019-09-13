@@ -258,32 +258,32 @@
     },
     {
         "name": "MATRIZ DE NORMAS LEGALES",
-        "url": "#",
+        "url": "./index.php?page=matrizLegales.php",
         "children": []
     },
     {
         "name": "MATRIZ DE RIESGOS",
-        "url": "#",
-        "children": []
-    },
-    {
-        "name": "PROGRAMAS DEL SIG",
-        "url": "#",
+        "url": "./index.php?page=matrizRiesgos.php",
         "children": []
     },
     {
         "name": "INDICADORES DEL SIG",
-        "url": "#",
+        "url": "./index.php?page=indicadoresSig.php",
         "children": []
     },
     {
         "name": "CRONOGRAMA DEL SIG",
-        "url": "#",
+        "url": "./index.php?page=cronogramaSig.php",
         "children": []
     },
     {
         "name": "LISTADO MAESTRO DE DOCUMENTOS Y REGISTROS",
-        "url": "#falta",
+        "url": "./index.php?page=listadoDocReg.php",
+        "children": []
+    },
+    {
+        "name": "GLOSARIO DE TÉRMINOS",
+        "url": "./index.php?page=glosario.php",
         "children": []
     }
 ]
