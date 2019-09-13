@@ -47,19 +47,24 @@
         "url": "#",
         "children": [{
                 "name": "POLÍTICA HSEQ",
-                "url": "#",
+                "url": "./index.php?page=sig.php#politica",
                 "children": []
             },
             {
                 "name": "OBJETIVOS DEL SIG",
-                "url": "#",
+                "url": "./index.php?page=sig.php#objetivos",
                 "children": []
             }
         ]
     },
     {
+        "name": "NUESTRO PROCESO PRODUCTIVO",
+        "url": "./index.php?page=procesoProductivo.php",
+        "children": []
+    },
+    {
         "name": "MAPA DE PROCESOS DE LA ORGANIZACIÓN",
-        "url": "#",
+        "url": "./index.php?page=mapaProcesos.php",
         "children": []
     },
     {
@@ -68,7 +73,7 @@
         "children": [
             {
                 "name": "PROCESOS ESTRATÉGICOS",
-                "url": "./documentos.php",
+                "url": "./index.php?page=documentos.php",
                 "children": [
                     {
                         "name": "PLANEACIÓN ESTRATÉGICA",
@@ -104,7 +109,7 @@
             },
             {
                 "name": "PROCESOS MISIONALES",
-                "url": "./documentos.php",
+                "url": "./index.php?page=documentos.php",
                 "children": [
                     {
                         "name": "GESTIÓN COMERCIAL",
@@ -200,7 +205,7 @@
             },
             {
                 "name": "PROCESOS DE APOYO",
-                "url": "./documentos.php",
+                "url": "./index.php?page=documentos.php",
                 "children": [
                     {
                         "name": "COMPRAS",

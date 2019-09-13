@@ -275,4 +275,74 @@
 
 			});
 
+		
+	
+	
+		
+			
+		$('a.lnk-proceso').on('click', function(e){
+			e.preventDefault();
+			let element = $(this);
+			let data = element.data('json');
+			let html = ``;
+
+			$.each(data.children, function (index, value) {
+				console.log(index, value);
+				html += `<button class="tablinks" onclick="openCity(event, '${value.name.toLowerCase()}')">${value.name}</button>`;
+			});
+
+			{/* <button class="tablinks" onclick="openCity(event, 'Paris')">Parissss</button> */}
+			console.log(element);
+			console.log(data);
+
+			
+			$('#tab').html(html);
+
+		})
+
+		$('ul#procesos-btn li:first a').click();
+		// $('#jstree_demo_div').jstree();
+
+		let json = [{"id":1,"text":"Root node","children":[{"id":2,"text":"Child node 1"},{"id":3,"text":"Child node 2"}]}];
+	$('#jstree_demo_div').jstree({
+		"core": {
+			"animation": 0,
+			"check_callback": true,
+			"themes": { "stripes": true },
+			'data': {
+				'url': function (node) {
+					return node.id === '#' ?
+						'/../../dataCustomer/menu.json' : '/../../dataCustomer/menu.json';
+				},
+				'data': function (node) {
+					return { 'id': node.id };
+				}
+			}
+		},
+		"types": {
+			"#": {
+				"max_children": 1,
+				"max_depth": 4,
+				"valid_children": ["root"]
+			},
+			"root": {
+				"icon": "/static/3.3.8/assets/images/tree_icon.png",
+				"valid_children": ["default"]
+			},
+			"default": {
+				"valid_children": ["default", "file"]
+			},
+			"file": {
+				"icon": "glyphicon glyphicon-file",
+				"valid_children": []
+			}
+		},
+		"plugins": [
+			"contextmenu", "dnd", "search",
+			"state", "types", "wholerow"
+		]
+	});
+
 })(jQuery);
+
+

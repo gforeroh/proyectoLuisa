@@ -23,24 +23,33 @@
 	</p>
 
     <hr class="major" />
-    <h2 id="mision">Magna etiam veroeros</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-	<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+	<h2 id="mision">MISIÓN</h2>
+	<div class="image main"><img src="./../images/3.png" alt="" /></div>	
+	<p>Somos una empresa innovadora en nuestros productos con una propuesta global de diseño de muebles artesanales y del servicio de mantenimiento locativo realizando diseños arquitectónicos. Nuestro grupo de profesionales trabajan en pro de la calidad en los procesos, cuidado del medio ambiente e integridad de la seguridad y salud de los trabajadores.</p>
     
     <hr class="major" />
-    <h2 id="vision">Lorem aliquam bibendum</h2>
-	<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+	<h2 id="vision">VISIÓN</h2>
+	<div class="image main"><img src="./../images/4.jpg" alt="" /></div>	
+	<p>Ser una empresa con marca de fábrica reconocida, con proyección local a corto plazo y nacional a mediano plazo lo cual será posible mediante el esfuerzo, dedicación y profesionalismo de nuestro equipo de trabajo, tomando en cuenta las tendencias del mercado, las necesidades actuales y futuras de nuestros clientes, seguir renovando y actualizando en esta área para llegar a ser la mejor opción para el público de venta de muebles y accesorios en decoración.</p>
 
 	<hr class="major" />
-    <h2 id="valores">Lorem aliquam bibendum</h2>
-	<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+	<h2 id="valores">VALORES</h2>
+	<div class="image main"><img src="./../images/5.jpg" alt="" /></div>
+	<p>Con el propósito de contribuir en la innovación de nuevos productos y productividad en el país, en cumplimiento de los requisitos de los Subsistemas que conforman el Sistema Integrado de Gestión, se compromete a:</p>
+	<ul style="margin-left: 2em">
+		<li>La prestación de sus servicios con calidad, innovación, cumplimiento y compromiso. La protección de medio ambiente y la prevención de la contaminación.</li>
+		<li>La protección de la seguridad de sus trabajadores con enfoque de empresas saludables.</li>
+	</ul>
+	<p>Estos valores se sustentan en la mejora continua de la gestión de todos los niveles de la entidad y se articula con las políticas específicas de cada subsistema que conforman el Sistema de Gestión.</p>
 
 	<hr class="major" />
-    <h2 id="principios">Lorem aliquam bibendum</h2>
-	<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+    <h2 id="principios">PRINCIPIOS</h2>
+	<p>La organización ARQUITECTURA J&D S.A.S mantendrá una conducta empresarial ética y transparente, con un alto nivel de dirección.</p>
+	<ul style="margin-left: 2em">
+		<li><strong>ARQUITECTURA J&D S.A.S</strong> cumplirá a cabalidad con todos los requisitos legales y contractuales de todos sus negocios, aplicando estándares nacionales e internacionales dentro de sus procesos comerciales y operacionales.</li>
+		<li><strong>ARQUITECTURA J&D S.A.S</strong> desarrollará, monitoreará y promoverá el mejoramiento continuo de cada producto y servicio aplicando su transparencia y buenas prácticas corporativas. A parte, no intervendrá   en asuntos políticos-partidistas.</li>
+		<li><strong>ARQUITECTURA J&D S.A.S</strong> espetara y apoyara lo establecido en la carta magna de los derechos humanos, y no establecerá relaciones comerciales con entidades y/o personas que vulneren dichos derechos.</li>
+	</ul>
 
 </section>
 

@@ -32,7 +32,7 @@
                             <span class="opener"><?= $item['name']?></span>
                             <ul>
                                 <?php foreach($item['children'] as $key2 => $subMenu1){ ?>
-                                    <?php $href = (!$subMenu1['children']) ? $subMenu1['url'] : $subMenu1['url'] . '?nivel1=' . $key1 . '&nivel2=' . $key2 ;?>
+                                    <?php $href = (!$subMenu1['children']) ? $subMenu1['url'] : $subMenu1['url'] . '&nivel1=' . $key1 . '&nivel2=' . $key2 ;?>
                                     <li><a href="<?=$href?>"><?= $subMenu1['name']?></a></li>
                                 <?php } ?>
                             </ul>

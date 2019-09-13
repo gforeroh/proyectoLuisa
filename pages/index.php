@@ -11,6 +11,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="./../assets/css/main.css" />
+	<link rel="stylesheet" href="./../assets/jstree/themes/default/style.css" />
 </head>
 
 <body class="is-preload">
@@ -59,6 +60,8 @@
 	<script src="./../assets/js/jquery.min.js"></script>
 	<script src="./../assets/js/browser.min.js"></script>
 	<script src="./../assets/js/breakpoints.min.js"></script>
+	<!-- <script src="./../assets/jstree/jquery.jstree.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
 	<script src="./../assets/js/util.js"></script>
 	<script src="./../assets/js/main.js"></script>
 

@@ -3606,11 +3606,17 @@ input, select, textarea {
 		}
 
 /* CUSTOMER */
-#header,
+/* #header,
 #ico-menu {
 	z-index: 10;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	background-color: #FFF;
-}
+} */
+
+ul {
+		list-style: disc;
+		margin: 0 0 2em 0;
+		padding-left: 1em;
+	}
