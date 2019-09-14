@@ -33,7 +33,7 @@
                 }
 
                 if($page == 'index.php'){
-                    $page = 'quienesSomos.php';
+                    $page = 'home.php';
                 }
 
 

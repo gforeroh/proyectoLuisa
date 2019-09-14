@@ -1,6 +1,6 @@
 <section>
 	<header class="main">
-		<h1>Gosario de términos</h1>
+		<h1 class="titulo">Gosario de términos</h1>
     </header>
     
 	<ul style="margin-left: 2em">

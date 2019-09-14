@@ -1,18 +1,7 @@
-<style>
-
-
-
-
-</style>
-<!-- <div class="sticky">I will stick to the screen when you reach my scroll position</div> -->
 <header id="header" class="sticky">
-	<a href="index.html" class="logo"><strong>ARQUITECTURA</strong> J&D</a>
+	<a href="index.html" class="logo"><strong>ARQUITECTURA J&D S.A.S</strong></a>
 	<ul class="icons">
-		<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter_ssssss</span></a></li>
-		<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-		<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a>
-		</li>
-		<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-		<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+		<li><a href="https://web.facebook.com/ArquitecturaJYD" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+		<li><a href="https://www.instagram.com/explore/locations/139892079535467/arquitectura-j-y-d-sas/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
 	</ul>
 </header>

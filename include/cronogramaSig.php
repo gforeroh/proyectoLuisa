@@ -1,6 +1,6 @@
 <section>
 	<header class="main">
-		<h1>Cronograma del sig</h1>
+		<h1 class="titulo">Cronograma del sig</h1>
     </header>
     
 	<p>Esta sección se encuentra en  mantenimiento.</p>

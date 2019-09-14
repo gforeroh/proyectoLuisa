@@ -1,6 +1,6 @@
 <section>
 	<header class="main">
-		<h1>Quienes somos</h1>
+		<h1 class="titulo">Quienes somos</h1>
     </header>
 	
 	<h2 id="productos">NUESTROS PRODUCTOS</h2>

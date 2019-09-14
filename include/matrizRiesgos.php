@@ -1,6 +1,6 @@
 <section>
 	<header class="main">
-		<h1>Matriz de riesgos</h1>
+		<h1 class="titulo">Matriz de riesgos</h1>
     </header>
 	
 	<p>
