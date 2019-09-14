@@ -113,20 +113,17 @@ body {font-family: Arial;}
             </nav>
         </div>
         <div>
-            <div class="tab" id="tab">
+            <div class="tab" id="tab1">
                 <!-- <button class="tablinks" onclick="openCity(event, 'London')">London</button>
                 <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button> -->
             </div>
 
-            <div id="procedimiento" class="tabcontent">
-                <h3>Proceso</h3>
-                <p>London is the capital city of England.</p>
+            <div id="arbol-box" class="tabcontent">
+                <h3 class="title-document" style="margin-bottom: 0px;">Documentos</h3>
+                <div id="diagram_nodo_file" style="padding: 10px 5px;">
+                    
+                </div>          
                 <div id="jstree_demo_div"></div>
-            </div>
-
-            <div id="formato" class="tabcontent">
-                <h3>Formato</h3>
-                <p>Paris is the capital of France.</p> 
             </div>
         </div>
     <?php } ?>
@@ -134,7 +131,7 @@ body {font-family: Arial;}
 
 <script>
     (function($) {
-        openCity(null, 'procedimiento');
+        openCity(null, 'arbol-box');
     })();
 
     function openCity(evt, cityName) {

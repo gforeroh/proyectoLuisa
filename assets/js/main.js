@@ -275,49 +275,67 @@
 
 			});
 
+	$('#jstree_demo_div').on("changed.jstree", function (e, data) {
+		if (data.node){
+			if (data.node.children.length === 0){
+				let link = `<div>
+								<a href="${data.node.original.href}" class="" target="_blank">&gt;&gt; Ver documento &lt;&lt;</a>
+								<code>${data.node.original.text}</code>
+							</div>`;
+
+				$('#diagram_nodo_file').html(link);
+				
+			} else {
+				$('#diagram_nodo_file').empty();
+			}
+		}
+	});
+
+
+	$('a.lnk-proceso').on('click', function(e){
+		e.preventDefault();
+		let element = $(this);
+		let rta = element.data('json');
+		let html = ``;
+		let data = [];
+		let root = {};
+		let titleArbol = `Documentos ${rta.name}`;
 		
-	
-	
+		$('#arbol-box .title-document').text(titleArbol.toUpperCase())
+		$('#diagram_nodo_file').empty();
+
+		$.each(rta.children, function (index, value) {
+			root = {
+				'text': value.name,
+				'state': {
+					'opened': false,
+					'selected': false
+				},
+				'children': value.data
+			};
+			data.push(root)
+
+			// html += `<button class="tablinks" onclick="openCity(event, '${value.name.toLowerCase()}')">${value.name}</button>`;
+		});
+
 		
-			
-		$('a.lnk-proceso').on('click', function(e){
-			e.preventDefault();
-			let element = $(this);
-			let data = element.data('json');
-			let html = ``;
+		{/* <button class="tablinks" onclick="openCity(event, 'Paris')">Parissss</button> */}
+		// console.log(element);
+		// console.log(data);
 
-			$.each(data.children, function (index, value) {
-				console.log(index, value);
-				html += `<button class="tablinks" onclick="openCity(event, '${value.name.toLowerCase()}')">${value.name}</button>`;
-			});
+		$('#jstree_demo_div').jstree(true).settings.core.data = data;
+		$('#jstree_demo_div').jstree(true).refresh();
+		
+		// $('#tab').html(html);
 
-			{/* <button class="tablinks" onclick="openCity(event, 'Paris')">Parissss</button> */}
-			console.log(element);
-			console.log(data);
+	})
 
-			
-			$('#tab').html(html);
-
-		})
-
-		$('ul#procesos-btn li:first a').click();
-		// $('#jstree_demo_div').jstree();
-
-		let json = [{"id":1,"text":"Root node","children":[{"id":2,"text":"Child node 1"},{"id":3,"text":"Child node 2"}]}];
 	$('#jstree_demo_div').jstree({
 		"core": {
 			"animation": 0,
 			"check_callback": true,
-			"themes": { "stripes": true },
-			'data': {
-				'url': function (node) {
-					return node.id === '#' ?
-						'/../../dataCustomer/menu.json' : '/../../dataCustomer/menu.json';
-				},
-				'data': function (node) {
-					return { 'id': node.id };
-				}
-			}
+			// "themes": { "stripes": true },
+			'data': []
 		},
 		"types": {
 			"#": {
@@ -343,6 +361,8 @@
 		]
 	});
 
+
+	$('ul#procesos-btn li:first a').click();
 })(jQuery);
 
 
